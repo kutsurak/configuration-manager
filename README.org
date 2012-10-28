@@ -1,0 +1,23 @@
+* Configuration Manager
+  A Java library that parses configuration files and keeps the
+  settings available for programs that need them.
+
+** Configuration files
+   Each configuration file is comprised of named sections in square
+   brackets and each section of key-value pairs:
+
+   [section 1]
+   key1 = value1
+   key2 = value2
+
+   [section 2]
+   key1 = value1
+   key3 = value2
+
+   Empty lines and lines starting with the character '#' are ignored.
+
+
+** Requirements
+   In order to compile the library you will need java 7 and a recent
+   version of apache maven. It has been tested with IcedTea7 2.3.3 and
+   apache maven 3.0.4
