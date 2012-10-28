@@ -6,6 +6,7 @@
    Each configuration file is comprised of named sections in square
    brackets and each section of key-value pairs:
 
+#+BEGIN_EXAMPLE
    [section 1]
    key1 = value1
    key2 = value2
@@ -13,6 +14,7 @@
    [section 2]
    key1 = value1
    key3 = value2
+#+END_EXAMPLE
 
    Empty lines and lines starting with the character '#' are ignored.
 
