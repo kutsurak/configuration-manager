@@ -45,7 +45,7 @@ public class ConfigurationManager {
                 String pr_line = line.trim();
                 line_no++;
 
-                //ignore empty lines and lines starting with '#' 
+                //ignore empty lines and lines starting with '#'
                 if (pr_line.isEmpty() || pr_line.charAt(0) == '#')
                     continue;
 
